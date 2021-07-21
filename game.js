@@ -82,7 +82,7 @@ async start() {
     tball.bounceOff(player1);
     tball.bounceOff(player2);
 
-    if(tball.x > 1250){
+    if(tball.x > 1200){
         player2score = player2score +1;
         tball.x=600
         tball.y=300
